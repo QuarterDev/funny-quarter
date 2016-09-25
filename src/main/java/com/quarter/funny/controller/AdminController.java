@@ -20,13 +20,6 @@ public class AdminController {
 
     private final Logger logger = LoggerFactory.getLogger(AdminController.class);
 
-    @RequestMapping(value = "encrypte", method = RequestMethod.GET)
-    public void encrypte() {
-//    	String url = "https://www.zhihu.com/";
-    }
-    
-    
-    
     @RequestMapping(value = "welcome", method = RequestMethod.GET)
     public String welcome(HttpServletResponse response) {
         String name = "aaa";
