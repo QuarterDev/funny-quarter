@@ -1,2 +1,8 @@
 /target/
-/bin/
+.settings
+bin
+.git
+.project
+.classpath
+.git
+
