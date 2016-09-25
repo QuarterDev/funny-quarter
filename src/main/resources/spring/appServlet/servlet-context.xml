@@ -14,7 +14,7 @@
 	default-autowire="byName" default-lazy-init="true">
         
     <!-- 自动扫描(自动注入)，扫描包以及它的子包的所有使用@Service注解标注的类 -->
-	<context:component-scan base-package="com.imopan.token">
+	<context:component-scan base-package="com.quarter.funny">
 <!-- 		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />	 -->
 	</context:component-scan>   
     
